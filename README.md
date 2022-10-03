@@ -25,7 +25,7 @@
 3. Fill the information into ddns.conf, and remember that the sleep time shall not be less than 60s<br>
 4. Please ensure that the device where the script is located has a public network ipv6 address and the router firewall passes (ipv6 spl)<br>
 ### 3. Dependence
-1. Requests (to be human installed)<br>
+1.Requests (to be human installed)<br>
 2.json<br>
 3.socket<br>
 4.time
