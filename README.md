@@ -20,12 +20,12 @@
 	It's a script for people who use dns.la to be their domain's nameservers to post thier ipv6 address currently by this automatic python project.
 ---
 ### 2.Usage
-1. Open the api in the dnsla background My Account API, and record your appiid and api key (apipass)<br>
-2. Use Get_ Recordid script, fill in appiid, apipass and domain_ After name, get the record ID of the ddns you need<br>
-3. Fill the information into ddns.conf, and remember that the sleep time shall not be less than 60s<br>
-4. Please ensure that the device where the script is located has a public network ipv6 address and the router firewall passes (ipv6 spl)<br>
+1.Open the api in the dnsla background My Account API, and record your appiid and api key (apipass)<br>
+2.Use Get_ Recordid script, fill in appiid, apipass and domain_ After name, get the record ID of the ddns you need<br>
+3.Fill the information into ddns.conf, and remember that the sleep time shall not be less than 60s<br>
+4.Please ensure that the device where the script is located has a public network ipv6 address and the router firewall passes (ipv6 spl)<br>
 ### 3. Dependence
-1.Requests (to be human installed)<br>
+1.requests (to be human installed)<br>
 2.json<br>
 3.socket<br>
 4.time
