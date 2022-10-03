@@ -4,10 +4,10 @@
 	自动解析ipv6地址到dnsla的python脚本 A repository of the python script to use the dns,la api
 ---
 ### 2.用法
-1.在dnsla后台-我的账户-API中开启api，并记录你的appiid和api密钥(apipass)
-2.使用Get_recordid脚本，填入appiid和apipass以及domain_name后获取你所需ddns的记录id
-3.将信息填入ddns.conf中，切记休眠时间不得少于60s
-4.请确保脚本所在设备具有公网ipv6地址并且路由器防火墙放行(ipv6spl)
+1.在dnsla后台-我的账户-API中开启api，并记录你的appiid和api密钥(apipass)\n
+2.使用Get_recordid脚本，填入appiid和apipass以及domain_name后获取你所需ddns的记录id\n
+3.将信息填入ddns.conf中，切记休眠时间不得少于60s\n
+4.请确保脚本所在设备具有公网ipv6地址并且路由器防火墙放行(ipv6spl)\n
 ### 3.依赖
 1.requests(需要安装)
 2.json
